@@ -1,6 +1,6 @@
 class Coffee_shop :
     items_prices = {
-          "latte" : 100,
+          " iced spanish latte" : 100,
           "mocha" : 120,
           "matcha" : 110,
           "cakes" : 80,
@@ -36,8 +36,8 @@ class Coffee_shop :
     
     
 
-Branch1 = Coffee_shop(['latte','matcha','mocha','cakes','cheese cakes'],500,10)
-Branch2= Coffee_shop(['latte','matcha','salted caramel','cakes','fresh juices'],700,8.6)
+Branch1 = Coffee_shop(['iced spanish latte','matcha','mocha','cakes','cheese cakes'],500,10)
+Branch2= Coffee_shop([' iced spanish latte','matcha','salted caramel','cakes','fresh juices'],700,8.6)
 
 
 Branch =input('choose the branch :') 
